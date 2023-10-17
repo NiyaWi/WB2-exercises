@@ -1,9 +1,9 @@
 "user scripts"
 
-var length=5;
-var height=4
-var base=6;
+var length = 50;
+var width = 44;
 
-var length + height + base= rectangle;
+
+var rectangle= length * width;
 
 console.log("The area of the rectangle is" + " " + rectangle);
