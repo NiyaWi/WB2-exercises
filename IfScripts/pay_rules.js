@@ -1,22 +1,25 @@
 "user strict"
 
 
-let payRate = 25 ;
-let hoursWorked = 40 ;
+let payRate = 12.5 ;
+let hoursWorked = 20 ;
 
 let overtime = hoursWorked - 40;
-let grossPay = (payRate * hoursWorked) + (overtime * 1.5 * payRate);
+let grossPaywov = (payRate * 40) + (overtime * 1.5 * payRate);
+let grossPay = (payRate * hoursWorked);
 
 
-if (hoursWorked > 40)
-{
-grossPay * overtime ;
+if (hoursWorked > 40){
+  grossPaywov;
+
 }
+
  else {
-   overtime=0;
+  grossPay ;
  }
 
 
- console.log("You worked" + " " +  + " " + " overtime hours");
+ console.log("You worked" + " " + overtime + " " + " overtime hours");
 console.log("Your gross pay is: $" + " " + grossPay);
+console.log("Your gross pay is:$" + " " + grossPaywov);
 
