@@ -1,2 +1,4 @@
-"user script;"
+"use strict";
+
+
 
