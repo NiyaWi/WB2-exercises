@@ -4,7 +4,7 @@
 //step 1:  establish my known values.
 
 let student = "Betty";
-let studentMajorCode = "ENG";
+let studentMajorCode = "HIST";
 
 //step 2.1: establish my unknowns
 let location;
@@ -39,9 +39,9 @@ else{
 
 //step 3: display the results
 
-console.log("Student Name:" + student)
-console.log("Major" + studentMajorName)
-console.log("Location" + location)
+console.log("Student Name:" + " " + student)
+console.log("Major:" + " " + studentMajorName)
+console.log("Location:" + " " + location)
 
 
 

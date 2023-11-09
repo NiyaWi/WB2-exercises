@@ -1,7 +1,7 @@
 "use strict";
 //known values
 
-let payRate = 17.3;
+let payRate = 50;
 let hoursWorked = 45;
 
 //unknown values 
@@ -13,9 +13,6 @@ grossPay = payRate*hoursWorked;
 else {
 overtime = hoursWorked-40;
 grossPay = (payRate*40) + ((payRate*1.5) * overtime);
-console.log(overtime)
-console.log(payRate*40)
-console.log(((payRate*1.5) * overtime))
 }
 
 //display the result
