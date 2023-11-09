@@ -1,11 +1,11 @@
 "use strict";
 
-let deptCode = "10";
-
+let deptCode = "1";
+let deptName;
 
 switch(deptCode){
     case "1":
-   console.log("Marketing");
+  console.log("Marketing");
     break;
     case "5":
     console.log("Human Resources");
@@ -22,10 +22,10 @@ switch(deptCode){
     case "18":
        console.log("IT");
       break;
-      
+
     case "20":
          console.log("Customer Relations");
-    
+   
 }
 
 
